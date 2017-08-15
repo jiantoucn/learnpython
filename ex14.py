@@ -1,3 +1,7 @@
+#if want to use this plz add numbers after the command
+#for example
+#python ex14.py X X X
+#X=numbers
 from sys import argv
 
 script,first,second,third = argv
