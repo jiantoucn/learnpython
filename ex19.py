@@ -2,7 +2,7 @@
 def print_two(*args):
     arg1, arg2=args
     print "arg1:%r,arg2:%r"%(arg1,arg2)
-
+#大概是用def创建一个函数 后面是名字 *args是一个可容纳XX的什么什么奇怪的东西（*args可以当作可容纳多个变量组成的list 来自百度）
 #ok,that *args is actually pointless,we can juse do this
 def print_two_again(arg1,arg2):
     print "arg1:%r,arg2:%r"%(arg1,arg2)
