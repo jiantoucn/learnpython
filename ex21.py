@@ -1,3 +1,4 @@
+#请记住 你现在写代码不是为了朱雨萱写 而是为了自己的未来
 from sys import argv
 
 script,input_file=argv
