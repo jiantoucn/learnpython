@@ -12,8 +12,13 @@ message = "I Love " + names[0] + " But I Am Really bad,so I Love " + names[1] + 
 print (message.title())
 #十分心痛T T
 
-names[2] = 'jingjing'
+names[2] = 'jingjing'#更换names列表中第三个元素
 #print ("but i think " + names[2] + " is very good ".title())
 message = "but i think " + names[2] + " is very good "
 print (message.title())
 #我永远喜欢萱萱 其他的都可以没有。。。
+#接下来是在列表末尾/在列表中间增加元素
+names.append("yiyan")#在尾部增加yiyan 
+print (names)#通过打印可以对比出和之前有什么区别
+names.insert(1,"yuxin")#重要 在这边单双引号无所谓！几乎可以的都这么认为 特殊情况暂时不考虑 这一条是指加入yuxin这个元素作为第二位 其他的往后类推
+print (names)#打印出即可看出不同
